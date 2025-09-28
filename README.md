@@ -16,41 +16,6 @@ It allows managing products in a warehouse with full CRUD operations, stock mana
 
 ---
 
-## Folder Structure
-
-src/
-  app/
-     api/
-        health/
-          route.ts
-        products/
-          route.ts
-          low-stock/
-              route.ts
-          [id]/
-              route.ts
-              increase/
-                  route.ts
-              decrease/
-                  route.ts
-  controllers/
-    productController.ts
-  lib/
-    logger.ts
-    validate.ts
-  middlewares/
-    errorHandler.ts
-    validateBody.ts
-  models/
-    product.ts
-  services/
-    productService.ts
-  utils/
-    httpErrors.ts
-
-
----
-
 ## Environment Setup
 
 1. Clone the repository:
